@@ -4,8 +4,7 @@ Operations availabe: loading from memory, storing to memory, addition, subtracti
 
 
 -How to use: 
-
-1-Import source code and constraint file in vivado v.2020+ 
+1-Import source code and constraint file in vivado v.2020+
 2- generate bitstream
 3-Connect to Basys3 and code it
 4- LSB of switched represents the instruction
@@ -14,12 +13,12 @@ Operations availabe: loading from memory, storing to memory, addition, subtracti
 
 -the following insturctions will be done in order by pressing the left button:
 
-  // Load RF[1] = DM[10] (= 10)
-  // Load RF[2] = DM[2]  (= 2)
-  // Sub RF[3] = RF[1] - RF[0] (10 - 8 = 2)
-  // Jump PC + 2 if RF[3] == RF[2] (2 == 2)
-  // Add RF[6] = RF[1] + 5 (15 = 10 + 5)
-  // Store DM[0] = RF[6] (=15)
+// Load RF[1] = DM[10] (= 10)
+// Load RF[2] = DM[2]  (= 2)
+// Sub RF[3] = RF[1] - RF[0] (10 - 8 = 2)
+// Jump PC + 2 if RF[3] == RF[2] (2 == 2)
+// Add RF[6] = RF[1] + 5 (15 = 10 + 5)
+// Store DM[0] = RF[6] (=15)
 
 -the format of instructions:
 
